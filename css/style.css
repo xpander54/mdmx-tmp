@@ -1,0 +1,156 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Alef', sans-serif;
+}
+
+
+.page-wrap
+{
+	width: 100%;
+}
+
+.main .container
+{
+	margin: 0 auto;
+}
+
+
+.container
+{
+	max-width: 1280px;
+	
+}
+
+.logo
+{
+	margin: .5em;
+	position: absolute;
+	width: 270px;
+}
+
+header.main
+{
+	background: #FCFCFC;
+	height: 111px;
+	border-top: solid 5px #ededed;
+}
+
+header.main h1
+{
+	width: 30%;
+}
+
+header.main .container
+{
+	height: 96px;
+}
+
+nav.main
+{
+	width: 70%;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+nav.main a:link {text-decoration:none; color: #00BB76;}
+nav.main a:visited {text-decoration:none; color: #00BB76;}
+nav.main a:hover {text-decoration:underline; color: #00BB76;}
+nav.main a:active {text-decoration:underline; color: #00BB76;}
+
+.menu-1
+{
+	list-style: none;
+	width: 85%;
+
+
+
+}
+
+.menu-1 li
+{
+	font-weight: bold;
+	float: right;
+	display: block;
+	padding: 1em 1em 0 2em;
+}
+
+.search
+{
+	width: 60%;
+	text-align: right;
+	padding: 1em 1em 0 0;
+}
+
+
+.slide-show
+{
+	background: #333;
+}
+
+.slide
+{
+	padding: 0;
+}
+
+.main-cont
+{
+	background: #171717;
+	color: white;
+	padding: 1em;
+	margin: 0 auto;
+	max-width: 1252px;
+}
+
+.nfo
+{
+	padding: 2em;
+}
+
+
+.post
+{
+	float: left;
+	background: magenta;
+	width: 230px;
+	height: 250px;
+	border-radius: 50%;
+	/*border:5px solid white;*/
+	border: 3px black dashed;
+
+}
+
+
+.width-100
+{
+	width: 100%;
+}
+
+
+
+.footer
+{
+	bottom: 0;
+	background: red;
+	text-align: center;
+}
+
+.clear-fix:after
+{
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.float-right
+{
+	float: right;
+}
+
+.float-left
+{
+	float: left;
+}
